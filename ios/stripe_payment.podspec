@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'stripe_payment'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
 A new flutter plugin project.
@@ -15,6 +15,6 @@ A new flutter plugin project.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'Stripe', '~> 19.4.0'
+  s.dependency 'Stripe', '~> 19.4.1'
   s.ios.deployment_target = '10.0'
 end
